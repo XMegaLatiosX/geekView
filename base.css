@@ -1,0 +1,248 @@
+body {
+    background-color: rgb(29, 28, 49);
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(7, 0, 27);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(29, 28, 49);
+}
+
+
+.header {
+    position: relative;
+    height: 75px;
+    background-color: rgb(29, 28, 49);
+    border-bottom: 0.8px solid rgba(240, 255, 240, 0.5);
+}
+
+.btnSidebar {
+    position: relative;
+    float: left;
+    background-color: rgba(196, 189, 230, 0);
+    color: rgb(196, 189, 230);
+    font-size: 45px;
+    border: none;
+    padding: 0px;
+    margin-right: 20px;
+    margin-left: 15px;
+    height: 100%;
+}
+
+.btnCSidebar {
+    padding-left: 20px;
+    position: relative;
+    background-color: rgb(26, 26, 36);
+    color: rgb(196, 189, 230);
+    font-size: 45px;
+    border: none;
+    width: 100%;
+    height: 75px;
+    float: left;
+    text-align: left;
+    box-shadow: black 0px -5px 15px 2px;
+}
+
+#sidebar {
+    z-index: 2;
+    position: fixed;
+    box-shadow: black 0px 0px 25px 1px;
+    background-color: rgb(36, 35, 42);
+    height: 100%;
+    width: 250px;
+    left: -300px;
+}
+
+.sidebaritem {
+    padding-left: 20px;
+    padding-top: 25px;
+    border-bottom: 1px solid rgba(240, 255, 240, 0.5);
+    color: rgb(196, 189, 230);
+    position: relative;
+    width: 230px;
+    height: 50px;
+    float: left;
+    font-size: 20px;
+}
+
+.RPdiv {
+    position: absolute;
+    cursor: pointer;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+.RPlogotipo {
+    position: relative;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.RPgeekview {
+    float: left;
+    margin: 7px auto auto 15px;
+    width: 40px;
+    left: 10px;
+    user-select: none;
+    font-size: 18px;
+    border-radius: 100%;
+    height: 30px;
+    color: rgb(196, 189, 230);
+}
+
+.logotipo {
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin: 10px 20px 10px 7px;
+}
+
+#ad1 {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    left: 25px;
+    width: 175px;
+    height: 800px;
+}
+
+.adImg {
+    height: 800px;
+    width: 175px;
+}
+
+#ad2 {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    right: 25px;
+    width: 175px;
+    height: 800px;
+}
+
+#userInf {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    right: 30px;
+    top: 5px;
+}
+
+.userImg {
+    user-select: none;
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+}
+
+#userName {
+    cursor: pointer;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serifw;
+    font-size: 20px;
+    right: 75px;
+    color:rgb(196, 189, 230);
+}
+
+.rank {
+    font-size: 18px;
+    margin: 29px 0px;
+    color: rgb(196, 189, 230);
+    width: 81px;
+    float: right;
+}
+
+.texto {
+    color: rgb(196, 189, 230);
+    font-family: 'Arial';
+}
+
+.popup {
+    z-index: 2;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(51, 49, 85);
+    border: solid 1px black;
+    box-shadow: black 0px 0px 25px 1px;
+    right: 10px;
+    top: 100px;
+}
+
+.acDiv {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgba(196, 189, 230, 0.5);
+    text-align: center;
+}
+
+.aUser {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.ppNick {
+    color: rgb(196, 189, 230);
+    margin: 38px auto;
+    font-family: 'Arial';
+    float: left;
+    font-size: 20px;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+
+.btnLogout {
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 189, 230, 0);
+    color: rgba(196, 189, 230, 0.5);
+    font-size: 30px;
+}
+
+@keyframes popup {
+    0%{height: 10px;}
+    30%{width: 300px;}
+    100%{height: 175px; width: 300px;}
+}
+
+@keyframes noPopup {
+    0%{height: 175px; width: 300px;}
+    30%{width: 300px;}
+    100%{height: 0px; width: 0px;}
+}
+
+@keyframes sidebar {
+    0%  {left: -300px;}
+    100%{left: 0px;}
+}
+
+@keyframes Csidebar {
+    0%  {left: 0px;}
+    100%{left: -300px;}
+}

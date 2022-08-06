@@ -1,0 +1,45 @@
+#topicos {
+    position: relative;
+    margin: 50px 205px;
+    height: 1000px;
+    padding: 20px;
+    width: auto;
+}
+
+.topico {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(196, 189, 230, 0.5);
+    width: auto;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.titulo {
+    color: rgb(196, 189, 230);
+    font-family: Arial, Helvetica, sans-serifw;
+    font-size: 40px;
+}
+
+.imgs {
+    user-select: none;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.topicTitle {
+    width: auto;
+    height: 50px;
+    margin-left: 215px;
+}
+
+.topicDesc {
+    position: absolute;
+    top: 75px;
+    margin-left: 250px;
+    color: rgb(196, 189, 230);
+    font-family: Arial, Helvetica, sans-serifw;
+    font-size: 15px;
+}
+

@@ -1,0 +1,188 @@
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.options {
+    margin: auto 10px;
+    padding: 0px;
+    height: 15px;
+    width: 15px;
+    color: rgba(196, 189, 230, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    float: right;
+    bottom: 76px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.options:active {
+    background-color: rgb(29, 28, 49);
+}
+
+.userDiv {
+    position: relative;
+    padding: 10px 15% 15px;
+    height: 100px;
+}
+
+.pUserImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid rgb(196, 189, 230);
+    cursor: pointer;
+}
+
+.userNick {
+    font-size: 30px;
+    color: rgb(196, 189, 230);
+    margin: 0px auto 5px auto;
+}
+
+.dtUser {
+    color: rgb(196, 189, 230);
+    position: absolute;
+    width: 110px;
+    font-size: 11px;
+    top: 90px;
+    margin-left: 5px;
+}
+
+.nPost {
+    color: rgb(196, 189, 230);
+    margin: 0px;
+}
+
+.ppRank {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(196, 189, 230);
+}
+
+.btnLogout {
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 56);
+    color: rgba(196, 189, 230, 0.9);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    box-shadow: -1.5px 4px 0 1.5px #999;
+    transition: 0.1s;
+}
+.btnLogout:hover {
+    background-color: rgb(160, 0, 0);
+    cursor: pointer;}
+.btnLogout:active {
+    background-color: rgb(255, 0, 0);
+    box-shadow: -2px 2px 0 0  rgb(100, 100, 100);
+    transform: translateY(4px);
+}
+
+.postagens {
+    margin: 75px 15%;
+    width: 70%;
+}
+
+.post {
+    border-top: 1px solid rgba(196, 189, 230, 0.5);
+    padding-left:15px;
+}
+
+.owner {
+    height: 75px;
+}
+
+.ownerIcon {
+    user-select: none;
+    margin-top: 10px;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.ownerNick {
+    position: relative;
+    color: rgba(196, 189, 230, 0.5);
+    font-size: 20px;
+    top: -65px;
+    left: 75px;
+}
+
+.date {
+    position: relative;
+    top: -140px;
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+    float: right;
+}
+
+.pInf {
+    height: auto;
+}
+
+.pTitle {
+    margin: 0px 0px 10px;
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+}
+
+.pText {
+    margin-top: 0px;
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+    word-wrap: break-word;
+}
+
+.tpc {
+    position: relative;
+    color: rgb(196, 189, 230);
+    margin: 0px;
+    bottom: 3px;
+    right: -87%;
+}
+
+.dltPopup {
+    background-color: rgb(29, 28, 49);
+    box-shadow: 0px 0px 8px 1px black;
+    z-index: 0;
+    position: relative;
+    float: right;
+    width: 10px;
+    height: 10px;
+    top: -90px;
+    right: -100vh;
+}
+
+.btnDlt {
+    border: none;
+    background-color: rgb(29, 28, 49);
+    height: 35px;
+    width: 100%;
+    padding: 0px;
+}
+
+.dltImg {width: 30px; height: 30px; float: left;}
+
+.dltTxt {color: rgba(196, 189, 230, 0.5); font-size: 20px; margin: 3px 0px;}
+@keyframes dltPopup {
+    0%{height: 10px;}
+    30%{width: 200px;}
+    100%{height: 35px; width: 200px;}
+}

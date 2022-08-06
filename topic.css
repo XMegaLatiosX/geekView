@@ -1,0 +1,171 @@
+.xaropinho {
+    position: relative;
+    margin: 50px 205px;
+    height: 1000px;
+    padding: 20px;
+    width: auto;
+}
+.container {
+    user-select: none;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+.inptTitle {
+    height: 50px;
+    width: 100%;
+    color: rgba(196, 189, 230, 0.75);
+    border-radius: 15px 15px 0px 0px;
+    border: 1.5px rgba(196, 189, 230, 0.75) solid;
+    background-color: rgb(25, 25, 70);
+    font-size: 25px;
+}
+
+.inptText {
+    height: 75px;
+    width: 100%;
+    color: rgba(196, 189, 230, 0.75);
+    border: 1.5px rgba(196, 189, 230, 0.75) solid;
+    border-top: 0px;
+    border-radius: 0px 0px 10px 0px;
+    background-color: rgb(25, 25, 70);
+    font-size: 15px;
+    resize: none;
+}
+
+.btn {
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(14, 14, 82);
+    color: rgba(196, 189, 230, 0.9);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    box-shadow: -1.5px 4px 0 1.5px #999;
+    transition: 0.1s;
+}
+.btn:hover {
+    background-color: rgb(3, 3, 112);
+    cursor: pointer;}
+.btn:active {
+    background-color: darkblue;
+    box-shadow: -2px 2px 0 0  rgb(100, 100, 100);
+    transform: translateY(4px);
+}
+
+.post {
+    padding-left:15px;
+    border-top: 1px solid rgba(196, 189, 230, 0.5);
+    padding-bottom: 15px;
+}
+
+.owner {
+    height: 75px;
+}
+
+.ownerIcon {
+    user-select: none;
+    margin-top: 10px;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.ownerNick {
+    position: relative;
+    color: rgba(196, 189, 230, 0.5);
+    font-size: 20px;
+    top: -65px;
+    left: 75px;
+}
+
+.date {
+    position: relative;
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+    bottom: 175%;
+    float: right;
+}
+
+.pInf {
+    height: auto;
+}
+
+.pTitle {
+    margin: 0px 0px 10px;
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+}
+
+.pText {
+    margin-top: 0px;
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+    word-wrap: break-word;
+}
+
+.actions {
+    user-select: none;
+    width: auto;
+}
+
+.like {
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    height: 25px;
+    width: 100px;
+    padding: 0px;
+}
+
+.likeImg {
+    width: 25px;
+    height: 25px;
+}
+
+.likeNum {
+    width: auto;
+    color: rgba(196, 189, 230, 0.5);
+}
+
+.dislike {
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    height: 25px;
+    padding: 0px;
+}
+
+.dislikeImg {
+    width: 25px;
+    height: 25px;
+}
+
+.coments {
+    margin-left: 100px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    height: 25px;
+    width: 75px;
+}
+
+.comentImg {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.comentNum {
+    width: 50px;
+    height: 25px;
+    margin: 0px;
+    float: left;
+    color: rgba(196, 189, 230, 0.5);
+}
+
+.aviso {
+    color: rgb(196, 189, 230);
+}
